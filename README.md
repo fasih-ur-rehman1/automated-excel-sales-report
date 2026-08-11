@@ -141,18 +141,14 @@ automated-excel-sales-report/
 ## How to Run
 
 Install the required libraries:
-
-```bash
+``` bash
 pip install pandas openpyxl
 ```
-
-Then run:
-
+Open the Jupyter/Colab notebook:
 ```bash
-python src/sales_report.py
+src/sales_report.ipynb
 ```
-
-The script processes the input dataset and generates the final Excel report in the `output/` directory.
+Run the cells in order to reproduce the analysis and generate the final Excel report in the output/ directory.
 
 ## Skills Demonstrated
 
